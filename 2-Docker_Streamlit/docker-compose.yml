@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  28janstreamlit:
+    image: 28janstreamlit
+    build:
+      context: .
+      dockerfile: ./Dockerfile
