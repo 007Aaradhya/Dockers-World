@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "docker-build",
+            "label": "Build Docker Containers",
+            "group": "build",
+            "dockerBuild": {
+                "tag": "docker_volumes:latest",
+                "dockerfile": "${workspaceFolder}/Dockerfile",
+                "context": "${workspaceFolder}",
+                "pull": true
+            }
+        },
+        {
+            "type": "docker-run",
+            "label": "Run Python Debug Container",
+            "dependsOn": ["Build Docker Containers"],
+            "dockerRun": {
+                "container": "python_container",
+                "volumes": ["python_data:/Docker_Volumes/data"],
+                "env": {
+                    "PYTHONUNBUFFERED": "1"
+                },
+                "ports": ["5678:5678"]
+            }
+        },
+        {
+            "type": "docker-run",
+            "label": "Run Node.js Debug Container",
+            "dependsOn": ["Build Docker Containers"],
+            "dockerRun": {
+                "container": "node_container",
+                "volumes": ["node_data:/Docker_Volumes/data"],
+                "ports": ["9229:9229"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python_container
+    volumes:
+      - python_data:/app/data
+
+  node-app:
+    build:
+      context: .  # Fix: Ensure Docker can see App/
+      dockerfile: Dockerfile
+    container_name: node_container
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["node", "/app/index.js"]
+
+volumes:
+  python_data:
