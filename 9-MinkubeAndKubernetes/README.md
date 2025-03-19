@@ -1,12 +1,8 @@
-### **✅ Customized README for Minikube with Docker on macOS (Aligned with Your System)**  
-
-Here’s a **refined README** for your setup, ensuring it's relevant to **macOS (ARM64)** while keeping the structure of the Windows guide you shared.  
+ Here’s a **refined README** for your setup, ensuring it's relevant to **macOS (ARM64)** while keeping the structure of the Windows guide you shared.  
 
 ---
 
 ## **Minikube with Docker on macOS ☸️**  
-
-![Minikube Logo](https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg)  
 
 ### **What is Minikube?**  
 Minikube is a tool that allows developers to **run a local Kubernetes cluster** on their machine. It’s perfect for testing and experimenting with Kubernetes without needing a full cloud infrastructure.  
