@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  asignhelloworld:
+    image: asignhelloworld
+    build:
+      context: .
+      dockerfile: ./Dockerfile
