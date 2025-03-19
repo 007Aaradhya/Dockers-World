@@ -1,3 +1,6 @@
 [submodule "5-Docker_Volumes/5-Docker_Volumes"]
 	path = 5-Docker_Volumes/5-Docker_Volumes
 	url = https://github.com/007Aaradhya/5-Docker_Volumes.git
+[submodule "5-Docker_Volumes"]
+	path = 5-Docker_Volumes
+	url = https://github.com/007Aaradhya/5-Docker_Volumes.git
