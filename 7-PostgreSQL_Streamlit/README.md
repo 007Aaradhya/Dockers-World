@@ -112,4 +112,8 @@ docker run --name my_streamlit_container --network my_postgres_network -p 8501:8
 Open a browser and visit:
 👉 **[http://localhost:8501](http://localhost:8501)**
 
+Below is a screenshot:
+
+![Passenger Details](Screenshot%202025-03-19%20at%208.13.22%E2%80%AFPM.png)
+
 
