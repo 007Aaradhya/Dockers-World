@@ -155,16 +155,6 @@ By using **Minikube with Docker on macOS**, you can:
 ✅ Easily **manage a local Kubernetes cluster**  
 ✅ Experiment with Kubernetes without cloud costs 💰  
 
-🚀 **Now you have a working Kubernetes environment on your Mac!** 🎉  
+🚀 **Now you have a working Kubernetes environment on your Mac!**  
 
 ---
-
-### **📌 How This README is Aligned for You:**  
-✅ Uses **macOS (ARM64)** setup instead of Windows  
-✅ Removes **Chocolatey (Windows Package Manager)**  
-✅ Uses **Homebrew** for package installation  
-✅ Configures Docker for **macOS virtualization**  
-✅ Uses **Docker driver** (since you’re not using VirtualBox/Hyper-V)  
-
-This README should work perfectly for your **Minikube setup on macOS**. 🚀  
-Let me know if you need any further refinements! 😊
