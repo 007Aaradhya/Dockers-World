@@ -114,6 +114,5 @@ Open a browser and visit:
 
 Below is a screenshot:
 
-![Passenger Details](Screenshot%202025-03-19%20at%208.13.22%E2%80%AFPM.png)
-
+![Passenger Details](Screenshot%202025-03-19%20at%208.56.17%E2%80%AFPM.png)
 
