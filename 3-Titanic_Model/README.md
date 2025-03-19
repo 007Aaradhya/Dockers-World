@@ -1,11 +1,11 @@
 
-### **2️⃣ Create the Required Files**
+### **Create the Required Files**
 Use the following commands to create empty files:
 ```bash
 touch Dockerfile requirements.txt main.py titanic_model.py
 ```
 
-#### **(iv) `Dockerfile`**
+#### **`Dockerfile`**
 ```dockerfile
 # Use a slim Python image
 FROM python:3.12-slim
@@ -30,7 +30,7 @@ CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.
 
 ---
 
-### **4️⃣ Build and Run in Docker**
+### **Build and Run in Docker**
 ```bash
 docker build -t titanic-prediction .
 docker run -p 8502:8501 titanic-prediction
