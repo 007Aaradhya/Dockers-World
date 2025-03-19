@@ -35,5 +35,5 @@ CMD ["streamlit", "run", "main.py", "--server.port=8501", "--server.address=0.0.
 docker build -t titanic-prediction .
 docker run -p 8502:8501 titanic-prediction
 ```
-![Titanic Model](Screenshot%202025-03-19%20at%209.28.34%20PM.png)
+![Titanic Model](Screenshot%202025-03-19%20at%209.28.34%E2%80%AFPM.png)
 ---
