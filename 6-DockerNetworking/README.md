@@ -1,4 +1,3 @@
-```md
 # 🐳 Docker Bridge: Network Isolation & Connectivity  
 
 ## 📌 Objective  
