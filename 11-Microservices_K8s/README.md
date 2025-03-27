@@ -42,16 +42,12 @@ Since VirtualBox caused issues, we use Docker as the driver:
 ```sh
 minikube start --driver=docker
 ```
-![Minikube Start](ss_1.png)
-
----
-
 ### 2️⃣ Set Up Docker Environment
 Configure Docker to use Minikube’s Docker daemon:
 ```sh
 eval $(minikube -p minikube docker-env)
 ```
-![Docker Env Setup](ss_2.png)
+![Minikube Start](ss_1.png)
 
 ---
 
@@ -65,7 +61,7 @@ docker build -t backend-service .
 # Deploy the backend service
 kubectl apply -f ../kubernetes/backend-service.yaml
 ```
-![Backend Deployment](ss_3.png)
+![Docker Env Setup](ss_2.png)
 
 #### 🔹 API Gateway
 ```sh
@@ -75,7 +71,7 @@ docker build -t api-gateway .
 # Deploy the API Gateway
 kubectl apply -f ../kubernetes/api-gateway.yaml
 ```
-![API Gateway Deployment](ss_4.png)
+![Backend Deployment](ss_3.png)
 
 ---
 
@@ -85,7 +81,7 @@ Check if everything is running correctly:
 kubectl get deployments
 kubectl get services
 ```
-![Deployment Verification](ss_5.png)
+![API Gateway Deployment](ss_4.png)
 
 ---
 
@@ -95,7 +91,7 @@ Expose and access the API Gateway service:
 minikube service api-gateway
 ```
 This opens a browser with the API Gateway response.
-![API Gateway Running](ss_6.png)
+![Deployment Verification](ss_5.png)
 
 ---
 
@@ -111,8 +107,7 @@ kubectl logs deployment/backend-service
 # Get pod details
 kubectl describe pods
 ```
-![Logs & Debugging](ss_7.png)
-![Pod Description](ss_8.png)
+![API Gateway Running](ss_6.png)
 
 ---
 
@@ -126,6 +121,8 @@ kubectl delete -f kubernetes/backend-service.yaml
 # Stop Minikube
 minikube stop
 ```
+![Logs & Debugging](ss_7.png)
+![Pod Description](ss_8.png)
 ![Cleanup](ss_9.png)
 
 ---
