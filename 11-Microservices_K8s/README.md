@@ -93,6 +93,8 @@ minikube service api-gateway
 This opens a browser with the API Gateway response.
 ![Deployment Verification](ss_5.png)
 
+![API Gateway Running](ss_6.png)
+
 ---
 
 ### 6️⃣ Monitoring and Debugging
@@ -107,7 +109,9 @@ kubectl logs deployment/backend-service
 # Get pod details
 kubectl describe pods
 ```
-![API Gateway Running](ss_6.png)
+![Logs & Debugging](ss_7.png)
+
+![Pod Description](ss_8.png)
 
 ---
 
@@ -121,8 +125,6 @@ kubectl delete -f kubernetes/backend-service.yaml
 # Stop Minikube
 minikube stop
 ```
-![Logs & Debugging](ss_7.png)
-![Pod Description](ss_8.png)
 ![Cleanup](ss_9.png)
 
 ---
