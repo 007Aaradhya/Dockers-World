@@ -197,9 +197,7 @@ This will:
 2. Navigate to **EC2 → AMIs** (Set the region you used when creating the AMI).  
 3. Find the AMI named: bakery-foundation-python39-timestamp
 
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011612.png?raw=true" alt="Screenshot">
-</p>
+![Image 4](https://raw.githubusercontent.com/007Aaradhya/Dockers-World/main/13-Bakery_Foundation/images/Screenshot%202025-03-20%20011612.jpeg)
 
 ### 4.2 Launch an EC2 Instance with Your AMI  
 
@@ -212,15 +210,12 @@ This will:
    - **Security Group**: Allow **SSH (port 22)** and other required ports.  
 5. Click **Launch**! 🚀
 
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011811.png?raw=true" alt="Screenshot">
-</p>
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20011842.png?raw=true" alt="Screenshot">
-</p>
-<p align="center">
-  <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/blob/3fc578cc500a51b8f7f138ffccdb81bc1ece9810/Bakery%20Foundation%20Example%20on%20Windows/images/Screenshot%202025-03-20%20012354.png?raw=true" alt="Screenshot">
-</p>
+![Image 3](https://raw.githubusercontent.com/007Aaradhya/Dockers-World/main/13-Bakery_Foundation/images/Screenshot%202025-03-20%20011811.jpeg)
+
+![Image 2](https://raw.githubusercontent.com/007Aaradhya/Dockers-World/main/13-Bakery_Foundation/images/Screenshot%202025-03-20%20011842.jpeg)
+
+![Image 1](https://raw.githubusercontent.com/007Aaradhya/Dockers-World/main/13-Bakery_Foundation/images/Screenshot%202025-03-20%20012354.jpeg)
+
 
 ### 4.3 Connect to the Instance  
 
